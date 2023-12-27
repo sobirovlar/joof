@@ -1,0 +1,91 @@
+@media only screen and (max-width:768px) {
+    .header{
+        width: 100%;
+        height: 100%;
+        border: 1px solid red;
+    }
+   
+  .nav a{
+    display: none;
+  }
+  .header button{
+    display: none;
+  }
+  .nav i{
+    display: inline;
+font-size: 3rem;
+  }
+  .about__contact{
+    grid-template-columns: 1fr;
+ }
+ .about__contact p{
+    width: 80%;
+ }
+.Fruits{
+    margin-top: 3rem;
+    width: 90%;
+}
+.Fruits__contact{
+    width: 90%;
+    grid-template-columns: 1fr;
+    margin-left: 2rem;
+    padding: 0;
+    padding-bottom: 2rem;
+}
+.Fruits__contact img{
+    width: 100%;
+    margin-left: 1.2rem;
+}
+.Fresh  p{
+    width: 80%;
+}
+.Fresh{
+    width: 100%;
+}
+.Fresh .item:first-of-type{
+    margin-left: 1rem;
+}
+.Fresh__contact{
+    width: 90%;
+    grid-template-columns: 1fr;
+}
+.Fresh img{
+    width: 75%;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.Blog{
+    height: 250vh;
+}
+
+.Blog__contact{
+    width: 82%;   
+    position: absolute;
+    left: 0;
+    grid-template-columns: 100%;
+}
+.Request{
+    margin-top: 60vh;
+}
+.Request__contact{
+    grid-template-columns: 100%;
+    padding-top: 220vh;
+    width: 90%;
+    margin: 0 auto;
+    }
+    .Request img{
+        width: 95%;
+        margin-left: 1rem;
+    }
+    .Request input,textarea{
+        width: 100%;
+    }
+    .footer{
+        margin-top: 100%;
+        padding-top: 100%;
+        background-color: rgb(41, 48, 67);
+
+    }
+   
+}

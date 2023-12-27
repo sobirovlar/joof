@@ -1,0 +1,250 @@
+.header{
+    width: 87%;
+    height: 90vh;
+    background-color: rgb(41, 48, 67);
+    padding: 20px 0;
+}
+.nav a{
+    text-decoration: none;
+    margin-left: 2rem;
+    margin-right: 5rem;
+    font-size: 1.3rem;
+    color: black;
+    opacity: 0.8;
+}
+.nav i{
+    display: none;
+    color: aqua;
+}
+.nav a:first-of-type{
+    color: dodgerblue;  
+}
+.navbar{
+    background-color: white;
+    height: 11vh;
+    
+}
+.logo{
+    margin-left: 10rem;
+}
+.banner{
+    width: 100%;
+    height: 60%;
+    padding-top: 7rem;
+}
+.banner__contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr );
+    gap: 3rem ;
+    color: white;
+}
+.banner h3{
+    color: rgb(67, 119, 175);
+    font-size: 3rem;
+}
+.banner h2{
+    font-size: 4rem;
+}
+.banner p{
+margin-right: 5rem;
+}
+.banner .item:first-of-type{
+margin-left: 15rem;
+}
+.banner button{
+    padding: 13px 3rem ;
+    background-color: rgb(41, 48, 67);
+margin-top: 10rem;
+transition: all 0.5s linear;
+}
+.banner button:hover{
+    background-color: rgb(0, 120, 120);
+}
+.about{
+    width: 100%;
+    height: 100%;
+    margin-top: 8rem;
+}
+.about__contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    align-items: center;
+    padding-top: 2rem;
+    opacity: 0.9;
+}
+.about h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.about p{
+    line-height: 26px;
+    margin-right: 10rem;
+    margin-bottom: 2rem;
+}
+.about button{
+    padding: 13px 40px ;
+    color: white;
+    font-size: 1.1rem;
+    background-color: rgb(41, 48, 67);
+    transition: all 0.5s linear; 
+    border: 0;
+}
+.about button:hover{
+    background-color: rgb(0, 120, 120);
+}
+.Fruits{
+    width: 90%;
+    height: 100%;
+    background-color: rgb(41, 48, 67);
+}
+.Fruits__contact{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    gap: 1rem   ;
+    margin-left: 6rem;   
+    padding: 20px 20px;
+}
+.Fruits .title h2{
+    margin-left: 5rem;
+}
+.Fruits img{
+width: 89%;
+}
+.Fresh{
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+    overflow: hidden;
+}
+.Fresh__contact{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.Fresh img{
+    margin-left: 10rem;
+}
+.Fresh .item:first-of-type{
+    width: 500px;
+    margin-left: 5rem;
+}
+.Fresh h2{
+    font-size: 4rem;
+}
+.Fresh p{
+    margin-top: 1rem;
+    line-height: 25px;
+    margin-bottom: 2rem;
+}
+.Fresh button{
+    padding: 13px 40px ;
+    color: white;
+    font-size: 1.1rem;
+    background-color: rgb(41, 48, 67);
+    transition: all 0.5s linear; 
+}
+.Fresh button:hover{
+background-color: rgb(0, 120, 120);
+transition: all 0.5s linear; 
+}
+.Blog{
+    width: 90%;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    background-color: rgb(41, 48, 67);
+}
+
+.Blog__contact{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    margin-right: 4rem;
+    margin-top: 3rem;
+}
+.Blog .title{
+    margin-right: 5rem;
+}
+.Blog span{
+    margin-top: 1rem;
+}
+.Blog .item{
+    width: 100%;
+    background-color: rgb(0, 200, 255);
+    text-align: center;
+}
+.Request{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50vh;
+    
+}
+.Request p ,b{
+    font-size: 3rem;
+    margin-left: 3px;
+}
+.Request__contact{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+padding-top: 30%;
+align-items: center;
+}
+.Request input,textarea{
+background-color: rgb(41, 48, 67);
+width: 80%;
+height: 12vh;
+border: 0;
+outline: 0;
+text-indent: 10px;
+display: grid;
+align-items: center;
+margin-top: 3vh; 
+color: white;
+}
+.Request textarea{
+    margin-top: 2rem;
+    height: 15vh;
+}
+.Request button{
+    padding: 10px 50px;
+    font-size: 1.1rem;
+    margin-top: 3rem;
+    background-color: rgb(0, 217, 255);
+}
+.Request button:hover{
+    background-color: rgb(0, 158, 186);
+    color: white;
+  
+}
+.footer{
+    width: 100%;
+    height: 60vh;
+    margin-top: 75vh;
+    background-color: rgb(41, 48, 67);
+color: white;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.footer__contact{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+padding-top: 5rem;
+}
+.footer .item{
+    display: grid;
+    align-items: center;
+}
+.footer input{
+  outline: 0;
+  height: 7vh;  
+}
+.footer button{
+    width: 20vh;
+}
